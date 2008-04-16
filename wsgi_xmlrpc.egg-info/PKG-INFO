@@ -1,0 +1,16 @@
+Metadata-Version: 1.0
+Name: wsgi-xmlrpc
+Version: 0.2.3
+Summary: WSGI xmlrpc application
+Home-page: http://wiki.osafoundation.org/Projects/WsgiXmlrpc
+Author: Open Source Applications Foundation
+Author-email: tools-dev@osafoundation.org
+License: http://www.apache.org/licenses/LICENSE-2.0
+Description: UNKNOWN
+Platform: Any
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules

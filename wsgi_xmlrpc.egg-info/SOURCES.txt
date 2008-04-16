@@ -1,0 +1,7 @@
+setup.py
+test_xmlrpc.py
+wsgi_xmlrpc/__init__.py
+wsgi_xmlrpc.egg-info/PKG-INFO
+wsgi_xmlrpc.egg-info/SOURCES.txt
+wsgi_xmlrpc.egg-info/dependency_links.txt
+wsgi_xmlrpc.egg-info/top_level.txt
