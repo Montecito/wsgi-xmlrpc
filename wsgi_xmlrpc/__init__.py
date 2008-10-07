@@ -73,7 +73,7 @@ class WSGIXMLRPCApplication(object):
             return []
         else:
             # got a valid XML RPC response
-            start_response("200 OK", [('Content-Type','text/xml')])
+            start_response("200 OK", [('Content-Type','text/xml'), ('Content-Length', str(len(response)),)])
             return [response]
             
 
