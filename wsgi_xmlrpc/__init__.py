@@ -67,6 +67,7 @@ class WSGIXMLRPCApplication(object):
             response = self.dispatcher._marshaled_dispatch(
                     data, getattr(self.dispatcher, '_dispatch', None)
                 )
+            response += '\n'
         except: # This should only happen if the module is buggy
             # internal error, report as HTTP server error
             start_response("500 Server error", [('Content-Type', 'text/plain')])
