@@ -22,7 +22,11 @@ class WSGIXMLRPCApplication(object):
 
     def __init__(self, instance=None, methods=[]):
         """Create windmill xmlrpc dispatcher"""
-        self.dispatcher = SimpleXMLRPCDispatcher(allow_none=True, encoding=None)
+        try:
+            self.dispatcher = SimpleXMLRPCDispatcher(allow_none=True, encoding=None)
+        except TypeError:
+            # python 2.4
+            self.dispatcher = SimpleXMLRPCDispatcher()
         if instance is not None:
             self.dispatcher.register_instance(instance)
         for method in methods:
