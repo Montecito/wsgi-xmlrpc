@@ -1,6 +1,6 @@
 Metadata-Version: 1.0
 Name: wsgi-xmlrpc
-Version: 0.2.7
+Version: 0.2.8
 Summary: WSGI xmlrpc application
 Home-page: http://code.google.com/p/wsgi-xmlrpc/
 Author: OSAF, Mikeal Rogers

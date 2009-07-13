@@ -19,7 +19,7 @@ desc = """WSGI xmlrpc application"""
 summ = """WSGI application for a simple xmlrpc method dispatching."""
 
 PACKAGE_NAME = "wsgi-xmlrpc"
-PACKAGE_VERSION = "0.2.7"
+PACKAGE_VERSION = "0.2.8"
 
 setup(name=PACKAGE_NAME,
       version=PACKAGE_VERSION,
